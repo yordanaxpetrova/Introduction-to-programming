@@ -13,7 +13,7 @@ int main()
     int firstDigit = n % 10;
     n /= 10;
 
-    int reversed = thirdDigit * 100 + secondDigit * 10 + firstDigit;
+    int reversed = thirdDigit * 100 + secondDigit * 10 + firstDigit + 1;
     
-    cout << ++reversed;
+    cout << reversed;
 }
